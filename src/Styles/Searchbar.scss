@@ -1,0 +1,15 @@
+@media (max-width:1536px) {
+    #searchbar{
+        margin: 2% 0%;
+        height: 2em;
+        width:30%;
+        padding: 0 1%;
+        outline: white solid 1px;
+        background: transparent;
+        color: white;
+        // border-radius: 10% ;
+    }
+    #searchbar::placeholder{
+        color: white;
+    }
+}

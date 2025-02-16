@@ -1,0 +1,13 @@
+@media (max-width: 1536px) {
+  .header {
+    background-color: blueviolet;
+    height: 80vh;
+  }
+  .header #poster {
+    height: 80vh;
+    width: 100vw;
+    position: absolute;
+  }
+}
+
+/*# sourceMappingURL=Header.css.map */

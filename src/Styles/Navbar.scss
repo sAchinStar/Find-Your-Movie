@@ -1,0 +1,24 @@
+@media (max-width:1536px){
+    #navbar{
+        display: flex;
+        justify-content: space-between;
+        // opacity: 0.5;
+        position: absolute;
+        color: white;
+        #logo{
+            // background: transparent;
+            // opacity: 0.5;
+            height: 10%;
+            width: 10%;
+            border-radius: 40%;
+          }
+        #navbar-content{
+            display: flex;
+            margin: 2% 0 2% 0;
+            width: 20%;
+            #favorites{
+                margin: 0 10% 0 0;
+            }
+        }
+    }
+}
