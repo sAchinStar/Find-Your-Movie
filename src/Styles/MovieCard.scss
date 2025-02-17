@@ -21,6 +21,19 @@
         .genres{
             color: grey;
         }
+        .fav-container{
+            margin-bottom: 2%;
+            text-align: center;
+            .add-to-fav{
+                height: 5vh;
+                border-radius: 10px;
+                padding: 1%;
+            }
+            .add-to-fav:hover{
+                background-color: green;
+                color: white;
+            }
+        }
     }
 }
 }

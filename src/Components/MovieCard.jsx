@@ -9,6 +9,9 @@ function MovieCard() {
                 <h3 className='content'>Captain America Winter Soldier</h3>
                 <p className='content'>IMDB Rating: 8.6</p>
                 <p className='genres'>Action,Adventure,Horror</p>
+                <div className='fav-container'>
+                    <button className='add-to-fav'>Add to favorite</button>
+                </div>
             </div>
         </div>
     )

@@ -18,6 +18,19 @@
   .movie-card .content-container .genres {
     color: grey;
   }
+  .movie-card .content-container .fav-container {
+    margin-bottom: 2%;
+    text-align: center;
+  }
+  .movie-card .content-container .fav-container .add-to-fav {
+    height: 5vh;
+    border-radius: 10px;
+    padding: 1%;
+  }
+  .movie-card .content-container .fav-container .add-to-fav:hover {
+    background-color: green;
+    color: white;
+  }
 }
 
 /*# sourceMappingURL=MovieCard.css.map */
