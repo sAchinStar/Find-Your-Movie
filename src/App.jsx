@@ -9,7 +9,8 @@ function App() {
   return (
     <>
       <Header />
-      <section className='featured'>
+      <section id='movie-section'>
+        <div id='card-container'>
         <MovieCard />
         <MovieCard />
         <MovieCard />
@@ -19,6 +20,18 @@ function App() {
         <MovieCard />
         <MovieCard />
         <MovieCard />
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+        </div>
+        <div id='button-container'>
+          <button>&larr;Prev</button>
+          <button>Next&rarr;</button>
+        </div>
       </section>
     </>
   )
