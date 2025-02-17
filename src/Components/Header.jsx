@@ -4,8 +4,8 @@ import Navbar from './Navbar';
 function Header() {
     return (
         <header className="header">
-            <img id='poster' src={Poster} alt='poster' />
             <Navbar/>
+            <img id='poster' src={Poster} alt='poster' />
             
         </header>
     )
