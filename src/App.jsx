@@ -6,10 +6,20 @@ import Header from './Components/Header'
 import MovieCard from './Components/MovieCard'
 
 function App() {
-  return(
+  return (
     <>
-    <Header/>
-    <MovieCard/>
+      <Header />
+      <section className='featured'>
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+      </section>
     </>
   )
 }

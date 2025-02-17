@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     color: white;
+    background-color: blueviolet;
     box-shadow: inset 5px 1px 10px gray;
   }
   #navbar #logo {

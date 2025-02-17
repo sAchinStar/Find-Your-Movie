@@ -1,5 +1,9 @@
 
-/* @media (max-width:1536px) {
+@media (max-width:1536px) {
+  .featured{
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+  }
   
-  
-} */
+}
