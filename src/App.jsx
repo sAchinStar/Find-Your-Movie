@@ -9,6 +9,14 @@ function App() {
   return (
     <>
       <Header />
+      <section id='filter-container'>
+      <button className='filter-button'>Latest</button>
+      <button className='filter-button'>Drama</button>
+      <button className='filter-button'>Romance</button>
+      <button className='filter-button'>South</button>
+      <button className='filter-button'>Hollywood</button>
+      <button className='filter-button'>Tollywood</button>
+      </section>
       <section id='movie-section'>
         <div id='card-container'>
         <MovieCard />
