@@ -1,0 +1,24 @@
+@media (max-width: 1536px) {
+  #details-container {
+    display: flex;
+    margin: 5% 0 5% 5%;
+  }
+  #details-container #poster {
+    width: 50%;
+    height: 30em;
+    margin-right: 1%;
+  }
+  #details-container #details #row-content {
+    display: flex;
+    list-style: none;
+    width: 24em;
+  }
+  #details-container #details #row-content li {
+    padding-right: 5%;
+  }
+  #details-container #details .content {
+    margin: 10%;
+  }
+}
+
+/*# sourceMappingURL=Details.css.map */
