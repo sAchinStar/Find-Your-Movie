@@ -1,8 +1,11 @@
 import poster from '../assets/Poster.png'
 import '../Styles/MovieCard.css'
-function MovieCard() {
+function MovieCard({setShowDetails}) {
+    const handleCardClick = ()=>{
+        setShowDetails(true);
+    }
     return (
-        <div className="movie-card">
+        <div className="movie-card" onClick={handleCardClick}>
             <img className='thumbnail' src={poster} alt="Thumbnail" />
             <div className='content-container'>
                 <p className='content'>USA, 2016</p>

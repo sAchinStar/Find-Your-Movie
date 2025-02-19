@@ -8,43 +8,47 @@ import Navbar from './Components/Navbar'
 import Details from './Components/Details'
 
 function App() {
+  const [showDetails, setShowDetails] = useState(false)
   return (
     <>
       <Navbar />
-      <Details/>
-      <Header />
-      <section id='filter-container'>
-        <button className='filter-button'>Latest</button>
-        <button className='filter-button'>Drama</button>
-        <button className='filter-button'>Romance</button>
-        <button className='filter-button'>South</button>
-        <button className='filter-button'>Hollywood</button>
-        <button className='filter-button'>Tollywood</button>
-      </section>
-      <section id='movie-section'>
-        <div id='card-container'>
-          <MovieCard />
-          <MovieCard />
-          <MovieCard />
-          <MovieCard />
-          <MovieCard />
-          <MovieCard />
-          <MovieCard />
-          <MovieCard />
-          <MovieCard />
-          <MovieCard />
-          <MovieCard />
-          <MovieCard />
-          <MovieCard />
-          <MovieCard />
-          <MovieCard />
-          <MovieCard />
-        </div>
-        <div id='button-container'>
-          <button>&larr;Prev</button>
-          <button>Next&rarr;</button>
-        </div>
-      </section>
+      {showDetails ? <Details />
+        : <>
+          <Header />
+          <section id='filter-container'>
+            <button className='filter-button'>Latest</button>
+            <button className='filter-button'>Drama</button>
+            <button className='filter-button'>Romance</button>
+            <button className='filter-button'>South</button>
+            <button className='filter-button'>Hollywood</button>
+            <button className='filter-button'>Tollywood</button>
+          </section>
+          <section id='movie-section'>
+            <div id='card-container'>
+              <MovieCard setShowDetails={setShowDetails}/>
+              <MovieCard setShowDetails={setShowDetails}/>
+              <MovieCard setShowDetails={setShowDetails}/>
+              <MovieCard setShowDetails={setShowDetails}/>
+              <MovieCard setShowDetails={setShowDetails}/>
+              <MovieCard setShowDetails={setShowDetails}/>
+              <MovieCard setShowDetails={setShowDetails}/>
+              <MovieCard setShowDetails={setShowDetails}/>
+              <MovieCard setShowDetails={setShowDetails}/>
+              <MovieCard setShowDetails={setShowDetails}/>
+              <MovieCard setShowDetails={setShowDetails}/>
+              <MovieCard setShowDetails={setShowDetails}/>
+              <MovieCard setShowDetails={setShowDetails}/>
+              <MovieCard setShowDetails={setShowDetails}/>
+              <MovieCard setShowDetails={setShowDetails}/>
+              <MovieCard setShowDetails={setShowDetails}/>
+            </div>
+            <div id='button-container'>
+              <button>&larr;Prev</button>
+              <button>Next&rarr;</button>
+            </div>
+          </section>
+        </>
+      }
     </>
   )
 }
