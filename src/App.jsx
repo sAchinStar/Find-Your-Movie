@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <Navbar />
-      {showDetails ? <Details />
+      {showDetails ? <Details setShowDetails={setShowDetails} />
         : <>
           <Header />
           <section id='filter-container'>

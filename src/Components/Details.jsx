@@ -1,8 +1,9 @@
 import poster from '../assets/Poster.png'
 import '../Styles/Details.css'
-function Details() {
+function Details({setShowDetails}) {
     return (
         <>
+            <button className='back-button'onClick={()=>setShowDetails(false)}>&larr;Back</button>
             <section id="details-container">
                 <img id='poster' src={poster} alt="Poster" />
                 <div id='details'>
